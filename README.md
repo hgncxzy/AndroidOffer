@@ -48,5 +48,11 @@
 
 ### 进程  & 线程
 
-1. Android 的进程间通信，Liunx 操作系统的进程间通信。
-2. 
+1. [Android 的进程间通信](https://blog.csdn.net/hzw2017/article/details/81275438)
+2. [Liunx 操作系统的进程间通信](https://www.cnblogs.com/jxc321/p/9296571.html)
+3. [Android 进程与线程的区别与联系](https://www.jianshu.com/p/f3feb05e3281)
+4. 
+
+### JVM
+
+1. [JVM虚拟机内存结构，以及它们的作用]()

@@ -42,9 +42,9 @@
 
 ### 问题
 
-1. [请简述Android事件传递机制](https://www.cnblogs.com/fuly550871915/p/4983682.html)
+1. [请简述Android事件传递机制](https://github.com/hgncxzy/offer/blob/master/docs/Android事件传递机制.md)
 
-2. [ACTION_CANCEL事件何时触发？]()
+2. [ACTION_CANCEL事件何时触发？](https://github.com/hgncxzy/offer/blob/master/docs/ACTION_CANCEL事件何时触发？.md)
 
 ### 进程  & 线程
 

@@ -27,6 +27,11 @@
 
     
 
+## Android View
+
+1. [Android View 的绘制流程](https://www.jianshu.com/p/c151efe22d0d)
+2. [Android的wrap_content是如何计算的]()
+
 ### 设计模式
 
 1. [单例模式(饿汉(饥汉)、懒汉(饱汉)、懒汉优化)](https://www.jianshu.com/p/18d70ba44ca5) 
@@ -56,4 +61,16 @@
 ### JVM
 
 1. [JVM虚拟机内存结构，以及它们的作用](https://github.com/hgncxzy/offer/blob/master/docs/jvm%20虚拟机.md)
+2. 
+
+### Android View
+
+1. 
+
+
+
+### 其他面试链接
+
+1. [2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总。](https://github.com/0voice/interview_internal_reference)
+
 2. 

@@ -30,7 +30,7 @@
 ## Android View
 
 1. [Android View 的绘制流程](https://www.jianshu.com/p/c151efe22d0d)
-2. [Android的wrap_content是如何计算的]()
+2. [Android的wrap_content是如何计算的](https://www.jianshu.com/p/2af18625fcdd)
 
 ### 设计模式
 

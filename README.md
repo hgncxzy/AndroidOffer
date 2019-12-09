@@ -147,7 +147,7 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 2. [Android View 的绘制流程](https://blog.csdn.net/pgg_cold/article/details/79481301)
 3. [Android的wrap_content是如何计算的](https://www.jianshu.com/p/2af18625fcdd)
 
-### 问题
+### 事件传递
 
 1. [请简述Android事件传递机制](https://github.com/hgncxzy/offer/blob/master/docs/Android事件传递机制.md)
 
@@ -159,10 +159,6 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 2. [Liunx 操作系统的进程间通信](https://www.cnblogs.com/jxc321/p/9296571.html)
 3. [Android 进程与线程的区别与联系](https://www.jianshu.com/p/f3feb05e3281)
 4. 
-
-### Android View
-
-1. 
 
 
 

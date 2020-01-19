@@ -31,21 +31,7 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 7. JVM 内存区域，开线程影响哪块区域内存？
 
-8. 对 Dalvik、ART 虚拟机有什么了解？对比？
-
-   ART 的机制与 Dalvik 不同。在Dalvik下，应用每次运行的时候，字节码都需要通过即时编译器（just in time ，JIT）转换为机器码，这会拖慢应用的运行效率，而在ART 环境中，应用在第一次安装的时候，字节码就会预先编译成机器码，极大的提高了程序的运行效率，同时减少了手机的耗电量，使其成为真正的本地应用。这个过程叫做预编译（AOT,Ahead-Of-Time）。这样的话，应用的启动(首次)和执行都会变得更加快速。
-
-   **优点：**
-
-   - 系统性能的显著提升。
-   - 应用启动更快、运行更快、体验更流畅、触感反馈更及时。
-   - 更长的电池续航能力。
-   - 支持更低的硬件。
-
-   **缺点：**
-
-   - 机器码占用的存储空间更大，字节码变为机器码之后，可能会增加10%-20%（不过在应用包中，可执行的代码常常只是一部分。比如最新的 Google+ APK 是 28.3 MB，但是代码只有 6.9 MB。）
-   - 应用的安装时间会变长。
+8. [对 Dalvik、ART 虚拟机有什么了解？对比？](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/Dalvik、ART 虚拟机对比.md)
 
 8. 垃圾回收机制和调用 System.gc()的区别？
 
@@ -58,18 +44,12 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 ### 多线程和线程池
 
 1. 线程有哪些状态，哪些锁，各种锁的区别
-
 2. 并发编程：synchronized 和 volatile 、ReentrantLock 、CAS 的区别
-
 3. synchronized 修饰实例方法和修饰静态方法有啥不一样。
-
 4. 线程阻塞的方式，sleep 、wait、yield、join 的区别，wait 的线程如何唤醒它
-
 5. java中创建线程的方式有几种。 一般而言很多人会回答两种，Thread与Runnable。我最早面试的时候也是说这两种，然后面试官问还有别的吗？我当时就没答上来，其实还有一种叫Callable的。
 6. 这里可能还需要理解下Callable与Runnable的区别以及使用时候的注意事项。
-
 7. 死锁造成的原因、手写死锁。synchronized 关键字
-
 8. 线程池 ThreadPoolExecutor 的使用，内部处理任务的过程以及四种线程池的区别。
 
 ### HTTP、HTTPS、TCP/IP、Socket 通信、三次握手四次挥手过程
@@ -78,11 +58,8 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 1. TCP 有哪些状态 
 2. 三次握手、四次挥手。为啥不是三次不是两次
-
 3. HTTPS 和 HTTP 的区别，HTTPS 2.0 3.0？
-
 4. 浏览器输入一个 URL 按下回车网络传输的流程？ 
-
 5. 问的深一点的可能涉及到网络架构，每层有什么协议，FTP 相关原理，例：TCP 建立连接后，发包频率是怎么样的？
 
 ### 设计模式

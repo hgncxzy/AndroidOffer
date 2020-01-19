@@ -13,7 +13,7 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 3. [JAVA容器-自问自答学HashMap](https://www.jianshu.com/p/32f67f9e71b5)
 4. [什么是HashMap？](https://juejin.im/post/5a215783f265da431d3c7bba)
 5. [从源码角度认识ArrayList，LinkedList与HashMap](https://www.jianshu.com/p/f174d49b391c)
-6. 
+6. HashMap的内部原理。 主要是内部的hash碰撞、resize()等。还会与HashTable进行对比，说出相同与不同点。作为延伸可能还会问concurrentHashMap的分步锁问题。
 
 ### JVM  &  内存模型  & 内存回收
 
@@ -57,14 +57,20 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 ### 多线程和线程池
 
-线程有哪些状态，哪些锁，各种锁的区别
+1. 线程有哪些状态，哪些锁，各种锁的区别
 
-并发编程：
-synchronized 和 volatile 、ReentrantLock 、CAS 的区别
+2. 并发编程：synchronized 和 volatile 、ReentrantLock 、CAS 的区别
 
-synchronized 修饰实例方法和修饰静态方法有啥不一样。
+3. synchronized 修饰实例方法和修饰静态方法有啥不一样。
 
-sleep 、wait、yield 的区别，wait 的线程如何唤醒它
+4. 线程阻塞的方式，sleep 、wait、yield、join 的区别，wait 的线程如何唤醒它
+
+5. java中创建线程的方式有几种。 一般而言很多人会回答两种，Thread与Runnable。我最早面试的时候也是说这两种，然后面试官问还有别的吗？我当时就没答上来，其实还有一种叫Callable的。
+6. 这里可能还需要理解下Callable与Runnable的区别以及使用时候的注意事项。
+
+7. 死锁造成的原因、手写死锁。synchronized 关键字
+
+8. 线程池 ThreadPoolExecutor 的使用，内部处理任务的过程以及四种线程池的区别。
 
 ### HTTP、HTTPS、TCP/IP、Socket 通信、三次握手四次挥手过程
 
@@ -81,9 +87,7 @@ sleep 、wait、yield 的区别，wait 的线程如何唤醒它
 
 ### 设计模式
 
-六大基本原则、项目中常用的设计模式、手写单例等.
-
-
+六大基本原则、项目中常用的设计模式、手写单例等.([参考](https://java-design-patterns.com/patterns/))
 
 1. [单例模式(饿汉(饥汉)、懒汉(饱汉)、懒汉优化)](https://www.jianshu.com/p/18d70ba44ca5) 
 2. [单例模式三种模式，饿汉、饱汉、双重锁模式，实例及优劣详解](https://blog.csdn.net/zhangliangzi/article/details/52438401)
@@ -98,9 +102,9 @@ sleep 、wait、yield 的区别，wait 的线程如何唤醒它
 11.  谈谈对 java 状态机的理解。 
 12. 谈谈应用更新（灰度、强制更新、分区更新？）
 
-### 断点续传
-
 ### Java 四大引用
+
+1. Java中的四种引用以及使用的场景
 
 ### 泛型
 
@@ -139,7 +143,82 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 ## Android
 
+### Activity 启动模式
 
+1. standard、singleTop、singleTask、singleInstance的区别。
+2.  singleTask启动时候的回调onNewIntent
+3. 不同栈之间的Activity如何跳转。
+
+### Service 启动模式和生命周期
+
+1. Service的启动模式和生命周期，
+2. 会延伸到Binder和IntentService，IntentService的原理和源码。
+3. 延伸到HandThread的问题。
+
+### Android 消息机制Handler
+
+1. Android消息机制Handler。这是常问也是必问的问题。
+2. 内部原理和源码
+3. 造成内存泄漏的原因和处理方式。
+
+### AsyncTask内部实现原理
+
+1. AsyncTask内部实现原理。
+2. 内部处理多任务是串行还是并行处理，为什么是串行处理，如果让其变成并行处理等。
+
+### LruCache算法如何实现
+
+1. LruCache算法如何实现，内部为什么要用LinkHashMap来实现。
+
+### 图片处理
+
+1. 图片的压缩处理。
+2.  这里会问四种图片格式的区别(ARGB888、RGB565、RGB444、Alpha_8)
+3. 给出一张以上格式的图片如何计算图片所占的内存大小。
+
+### 序列化
+
+1. Serializable与Parcable的区别。 
+2. 在什么情况下需要用到序列化和反序列化，
+3. Serializable中为什么要设置UID，设置UID与不设置UID值的区别和影响。
+
+### 动画
+
+1. 动画总结。
+2.  重点是属性动画内部实现原理，差值器和估值器的使用。
+
+### 断点续传
+
+1. Android中断点续传的原理
+
+### 热更新
+
+1. 热更新的原理。 
+
+### 性能优化
+
+1. Android的性能优化。
+2.  布局优化(include、merge和viewstub标签的使用)、
+3. 绘制优化(不要在onDraw方法里面创建新的对象)、
+4. 内存泄漏优化，
+5. 检测内存的方式和内存泄露造成的原因等。
+
+### 网络请求的原理
+
+1. 网络请求原理。
+2.  http与https的区别、
+3. 三次握手和四次挥手，为什么握手一定要三次？为什么挥手一定要四次？
+4. http的响应码。
+5. http1与http2的区别等。
+
+### 开源框架
+
+1. 开源框架的使用和原理。
+2.  OkHttp内部实现、
+3. glide的内部原理、
+4. EventBus源码
+5. RxJava的使用过程注意事项等。
+   
 
 ## Android View
 
@@ -150,15 +229,20 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 ### 事件传递
 
 1. [请简述Android事件传递机制](https://github.com/hgncxzy/offer/blob/master/docs/Android事件传递机制.md)
-
 2. [ACTION_CANCEL事件何时触发？](https://github.com/hgncxzy/offer/blob/master/docs/ACTION_CANCEL事件何时触发？.md)
+3. onInterceptTouchEvent返回true时剩下的MOVE与UP如何走
+4. onTouch、onTouchEvent、onClick的先后顺序关系。
 
 ### 进程  & 线程
 
 1. [Android 的进程间通信](https://blog.csdn.net/hzw2017/article/details/81275438)
 2. [Liunx 操作系统的进程间通信](https://www.cnblogs.com/jxc321/p/9296571.html)
 3. [Android 进程与线程的区别与联系](https://www.jianshu.com/p/f3feb05e3281)
-4. 
+4. IPC原理
+5.  AIDL
+6. Binder
+7. 进程之间的优先级。 前台进程、可见进程、后台进程、不可见进程与空进程。
+8. 进程的保活措施。
 
 
 

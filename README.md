@@ -244,9 +244,11 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 7. 进程之间的优先级。 前台进程、可见进程、后台进程、不可见进程与空进程。
 8. 进程的保活措施。
 
+## 非技术方面
 
+1. [当面试官问“你有什么要问我的吗”时，应该说什么？]()
 
-### 其他面试链接
+## 其他面试链接
 
 1. [2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总。](https://github.com/0voice/interview_internal_reference)
 2. [Java 工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)

@@ -18,22 +18,14 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 ### JVM  &  内存模型  & 内存回收
 
 1. [JVM虚拟机内存结构，以及它们的作用](https://github.com/hgncxzy/offer/blob/master/docs/jvm%20虚拟机.md)
-
 2. [理解Java内存模型](https://juejin.im/post/5bf2977751882505d840321d)
-
 3. [你了解Java内存模型么（Java7、8、9内存模型的区别）](https://blog.csdn.net/laomo_bible/article/details/83067810)
-
 4. [Java虚拟机（JVM）你只要看这一篇就够了！](https://blog.csdn.net/qq_41701956/article/details/81664921)
-
 5. JVM 类加载机制
-
 6. 垃圾回收算法对比
-
 7. JVM 内存区域，开线程影响哪块区域内存？
-
 8. [对 Dalvik、ART 虚拟机有什么了解？对比？](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/Dalvik、ART 虚拟机对比.md)
-
-8. 垃圾回收机制和调用 System.gc()的区别？
+9. 垃圾回收机制和调用 System.gc()的区别？
 
 ### 类加载
 
@@ -93,30 +85,17 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 ### 算法
 
 1. 合并排序
-
 2. 快速排序
-
 3. 堆排序
-
 4. 傅利叶变换与快速傅利叶变换
-
 5. 迪杰斯特拉算法（又译戴克斯特拉算法）
-
 6. RSA 算法
-
 7. 安全哈希算法
-
 8. 整数分解
-
 9. 链接分析
-
 10. 比例微积分算法
-
 11. 数据压缩算法
-
 12. 随机数生成算法
-
-    
 
 ## Android
 

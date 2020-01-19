@@ -246,7 +246,8 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 ## 非技术方面
 
-1. [当面试官问“你有什么要问我的吗”时，应该说什么？]()
+1. [怎样写简历](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/非技术面试/1.md)
+2. [当面试官问“你有什么要问我的吗”时，应该说什么？](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/非技术面试/2.md)
 
 ## 其他面试链接
 

@@ -153,7 +153,7 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 ### 性能优化
 
-1. Android的性能优化。
+1. [Android的性能优化。](https://blog.csdn.net/jdfkldjlkjdl/article/details/89495181)
 2.  布局优化(include、merge和viewstub标签的使用)、
 3. 绘制优化(不要在onDraw方法里面创建新的对象)、
 4. 内存泄漏优化，

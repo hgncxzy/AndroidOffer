@@ -200,6 +200,17 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 7. 进程之间的优先级。 前台进程、可见进程、后台进程、不可见进程与空进程。
 8. 进程的保活措施。
 
+## Android 三方框架
+
+### RxJava
+
+1. [RxJava 1与RxJava 2的API上的区别]( https://www.jianshu.com/p/d53463e1c3d6)
+2. [RxJava常见的使用场景总结](https://www.jianshu.com/p/6917510b0e4c)
+3. [可能是东半球最全的RxJava使用场景小结](https://blog.csdn.net/theone10211024/article/details/50435325)
+4. [我写的例子 RxJava2Demo](https://github.com/hgncxzy/RxJava2Demo)
+
+
+
 ## 非技术方面
 
 1. [怎样写简历](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/非技术面试/1.md)

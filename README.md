@@ -104,7 +104,7 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 ### 四大组件之 Actiivty
 
-1. startActivity 的内部实现
+1. [startActivity 的内部实现](https://www.jianshu.com/p/ece2790efc9f)
 2. 
 
 ### Activity 启动模式

@@ -13,7 +13,8 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 3. [JAVA容器-自问自答学HashMap](https://www.jianshu.com/p/32f67f9e71b5)
 4. [什么是HashMap？](https://juejin.im/post/5a215783f265da431d3c7bba)
 5. [从源码角度认识ArrayList，LinkedList与HashMap](https://www.jianshu.com/p/f174d49b391c)
-6. HashMap的内部原理。 主要是内部的hash碰撞、resize()等。还会与HashTable进行对比，说出相同与不同点。作为延伸可能还会问concurrentHashMap的分步锁问题。
+6. [解决哈希冲突的常用方法分析](https://www.jianshu.com/p/4d3cb99d7580)
+7. [Hash算法及HashMap底层实现原理](https://www.jianshu.com/p/67b825e08d17)
 
 ### JVM  &  内存模型  & 内存回收
 
@@ -53,6 +54,7 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 3. HTTPS 和 HTTP 的区别，HTTPS 2.0 3.0？
 4. 浏览器输入一个 URL 按下回车网络传输的流程？ 
 5. 问的深一点的可能涉及到网络架构，每层有什么协议，FTP 相关原理，例：TCP 建立连接后，发包频率是怎么样的？
+6. [HTTP 状态码](https://blog.csdn.net/Eric_sun8868/article/details/102862171)
 
 ### 设计模式
 
@@ -61,15 +63,16 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 1. [单例模式(饿汉(饥汉)、懒汉(饱汉)、懒汉优化)](https://www.jianshu.com/p/18d70ba44ca5) 
 2. [单例模式三种模式，饿汉、饱汉、双重锁模式，实例及优劣详解](https://blog.csdn.net/zhangliangzi/article/details/52438401)
 3. [Java的生产者-消费者模型 ](https://blog.csdn.net/wowwilliam0/article/details/80875673)
-4. 生产者模式和消费者模式的区别？ 
-5. 单例模式双重加锁，为什么这样做？ 
-6. 知道的设计模式有哪些？ 
-7. 项目中常用的设计模式有哪些？
-8.  手写生产者、消费者模式。 
-9. 手写观察者模式代码。
-10.  适配器模式、装饰者模式、外观模式的异同？
-11.  谈谈对 java 状态机的理解。 
-12. 谈谈应用更新（灰度、强制更新、分区更新？）
+4. 双亲委托模型为什么如此设计
+5. 生产者模式和消费者模式的区别？ 
+6. 单例模式双重加锁，为什么这样做？ 
+7. 知道的设计模式有哪些？ 
+8. 项目中常用的设计模式有哪些？
+9. 手写生产者、消费者模式。 
+10. 手写观察者模式代码。
+11. 适配器模式、装饰者模式、外观模式的异同？
+12. 谈谈对 java 状态机的理解。 
+13. 谈谈应用更新（灰度、强制更新、分区更新？）
 
 ### Java 四大引用
 
@@ -98,6 +101,11 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 12. 随机数生成算法
 
 ## Android
+
+### 四大组件之 Actiivty
+
+1. startActivity 的内部实现
+2. 
 
 ### Activity 启动模式
 
@@ -176,7 +184,7 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 5. RxJava的使用过程注意事项等。
    
 
-## Android View
+### Android View
 
 1. [Android View 的绘制流程](https://www.jianshu.com/p/c151efe22d0d)
 2. [Android View 的绘制流程](https://blog.csdn.net/pgg_cold/article/details/79481301)
@@ -194,11 +202,19 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 1. [Android 的进程间通信](https://blog.csdn.net/hzw2017/article/details/81275438)
 2. [Liunx 操作系统的进程间通信](https://www.cnblogs.com/jxc321/p/9296571.html)
 3. [Android 进程与线程的区别与联系](https://www.jianshu.com/p/f3feb05e3281)
-4. IPC原理
-5.  AIDL
-6. Binder
-7. 进程之间的优先级。 前台进程、可见进程、后台进程、不可见进程与空进程。
-8. 进程的保活措施。
+4. ThreadPoolExcutor 原理
+5. IPC原理
+6. AIDL
+7. Binder
+8. 进程之间的优先级。 前台进程、可见进程、后台进程、不可见进程与空进程。
+9. 进程的保活措施。
+
+### 音视频开发
+
+1. IPB 帧的解码和渲染顺序
+2. 对 h264 aac opus 这几个协议是否有了解
+3. udp传输音视频桢 如何解决丢包问题
+4. 
 
 ## Android 三方框架
 

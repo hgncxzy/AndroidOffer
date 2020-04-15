@@ -8,7 +8,7 @@
 
 HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内部数据结构的实现、扩容、存取操作，再深一点 哈希碰撞，哈希计算，哈希映射，为什么是头插法，扩容为什么是 2 的幂次等。
 
-2. [HashMap原理深入理解](https://blog.csdn.net/visant/article/details/80045154)
+2. [HashMap原理深入理解](https://blog.csdn.net/visant/article/details/80045154) 
 2. [到底什么是 Hash 算法]( https://www.cnblogs.com/lanqi/p/10634734.html )
 3. [从源码角度认识ArrayList，LinkedList与HashMap](https://www.jianshu.com/p/f174d49b391c)
 4. [解决哈希冲突的常用方法分析](https://www.jianshu.com/p/4d3cb99d7580)

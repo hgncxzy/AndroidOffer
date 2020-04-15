@@ -25,11 +25,9 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 8. [对 Dalvik、ART 虚拟机有什么了解？对比？](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/Dalvik、ART 虚拟机对比.md)
 9. 垃圾回收机制和调用 System.gc()的区别？
 
-### 类加载
-
-1. **类加载过程**（需要多看看，重在理解，对于热修复和插件化比较重要）
-
 ### 反射
+
+
 
 ### 多线程和线程池
 

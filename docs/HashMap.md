@@ -1,8 +1,8 @@
-## ### hashing (哈希法) 的概念
+### Hashing (哈希法) 的概念
 
 散列法（Hashing）是一种将字符组成的字符串转换为固定长度（一般是更短长度）的数值或索引值的方法，称为散列法，也叫哈希法。由于通过更短的哈希值比用原始值进行数据库搜索更快，这种方法一般用来在数据库中建立索引并进行搜索，同时还用在各种解密算法中。
 
-## ### 对比：Hashtable、HashMap、LinkedHashMap、ConcurrentHashMap、TreeMap
+### 对比：Hashtable、HashMap、LinkedHashMap、ConcurrentHashMap、TreeMap
 
 #### HashTable
 

@@ -20,6 +20,8 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 5. 对比：Hashtable、HashMap、LinkedHashMap、ConcurrentHashMap、TreeMap
 
+6. [我对 HashMap 的概括]()
+
    
 
 ### JVM  &  内存模型  & 内存回收 & 状态机

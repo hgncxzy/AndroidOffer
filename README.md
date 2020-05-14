@@ -18,7 +18,7 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 4. [解决哈希冲突的常用方法分析](https://www.jianshu.com/p/4d3cb99d7580)
 
-5. 对比：Hashtable、HashMap、LinkedHashMap、ConcurrentHashMap、TreeMap
+5. 对比：Hashtable、HashMap、LinkedHashMap、ConcurrentHashMap、TreeMap （看第六条就可以）
 
 6. [我对 HashMap 的概括](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/HashMap.md)
 

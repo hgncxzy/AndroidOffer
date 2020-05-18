@@ -112,11 +112,12 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 四大组件内容 参考 这个  https://www.jianshu.com/p/0f52a3defc1d 
 
 1. [startActivity 的内部实现](https://www.jianshu.com/p/ece2790efc9f)
-2. [Activity 与 Window 与 View 之间的关系]( https://blog.csdn.net/freekiteyu/article/details/79408969?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.nonecase )
-3. 四种启动模式 standard、singleTop、singleTask、singleInstance 的区别。
-4. onNewIntent 的调用时机
-5. 不同栈之间的 Activity 如何跳转。
-6. Activity 生命周期
+2. [startActivity 相关的问题描述](#)
+3. [Activity 与 Window 与 View 之间的关系]( https://blog.csdn.net/freekiteyu/article/details/79408969?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.nonecase )
+4. 四种启动模式 standard、singleTop、singleTask、singleInstance 的区别。
+5. onNewIntent 的调用时机
+6. 不同栈之间的 Activity 如何跳转。
+7. [Activity 生命周期](https://www.jianshu.com/p/100ebb92a50a)
 
 ### 四大组件之 Service
 

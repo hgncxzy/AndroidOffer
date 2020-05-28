@@ -43,14 +43,20 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 ### 多线程和线程池
 
-1. 线程有哪些状态，哪些锁，各种锁的区别
-2. 并发编程：synchronized 和 volatile 、ReentrantLock 、CAS 的区别
-3. synchronized 修饰实例方法和修饰静态方法有啥不一样。
-4. 线程阻塞的方式，sleep 、wait、yield、join 的区别，wait 的线程如何唤醒它
-5. java中创建线程的方式有几种。 一般而言很多人会回答两种，Thread与Runnable。我最早面试的时候也是说这两种，然后面试官问还有别的吗？我当时就没答上来，其实还有一种叫Callable的。
-6. 这里可能还需要理解下Callable与Runnable的区别以及使用时候的注意事项。
-7. 死锁造成的原因、手写死锁。synchronized 关键字
-8. 线程池 ThreadPoolExecutor 的使用，内部处理任务的过程以及四种线程池的区别。
+1. 线程有哪些状态，
+2. Synchronized的原理，synchronized 关键字
+3. ReentrantLock的原理。
+4. ReentrantLock为什么是可重入的。
+5. 有哪些锁 公平锁和非公平锁是什么？有什么区别。
+6. 并发编程：synchronized 和 volatile 、ReentrantLock 、CAS 的区别
+7. synchronized 修饰实例方法和修饰静态方法有啥不一样。
+8. 线程阻塞的方式，sleep 、wait、yield、join 的区别，wait 的线程如何唤醒它
+9. java中创建线程的方式有几种。 一般而言很多人会回答两种，Thread与Runnable。我最早面试的时候也是说这两种，然后面试官问还有别的吗？我当时就没答上来，其实还有一种叫Callable的。
+10. 这里可能还需要理解下Callable与Runnable的区别以及使用时候的注意事项。
+11. 死锁造成的原因、手写死锁。
+12. 线程池 ThreadPoolExecutor 的使用，内部处理任务的过程以及四种线程池的区别。
+13.  [Java并发编程：volatile关键字解析](https://www.cnblogs.com/dolphin0520/p/3920373.html)
+14. [同步锁 synchronized 和 ReentrantLock 的区别](https://blog.csdn.net/zxd8080666/article/details/83214089)
 
 ### HTTP、HTTPS、TCP/IP、Socket 通信、三次握手四次挥手过程
 
@@ -121,7 +127,7 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 ### 四大组件之 Service
 
-1. Service 的启动模式
+1. [Service 的启动模式](https://www.jianshu.com/p/4c798c91a613 )
 2. Service 的生命周期
 3. Binder 和 IntentService
 4. IntentService 的原理和源码

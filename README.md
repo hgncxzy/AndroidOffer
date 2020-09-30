@@ -4,11 +4,7 @@
 
 ### Java 进阶
 
-### 容器
-
-HashMap、HashSet、LinkedList、ArrayList、数组等）,需要了解其实现原理，还要灵活运用，如：自己实现 LinkedList、两个栈实现一个队列，数组实现栈，队列实现栈等。
-
-HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内部数据结构的实现、扩容、存取操作，再深一点 哈希碰撞，哈希计算，哈希映射，为什么是头插法，扩容为什么是 2 的幂次等。
+### HashMap
 
 1. [到底什么是 Hash 算法]( https://www.cnblogs.com/lanqi/p/10634734.html )
 
@@ -22,7 +18,27 @@ HashMap、HashTable 和 CurrentHashMap 的核心区别（并发），其次内�
 
 6. [我对 HashMap 的概括](https://github.com/hgncxzy/AndroidOffer/blob/master/docs/HashMap.md)
 
-   
+7. HashMap 用什么数据结构实现的
+
+8. 加载因子是什么
+
+9. HashMap 初始化传入的容量参数的值是就是 HashMap 实际分配的空间么
+
+10. HashMp 的扩容机制是什么，什么时候扩容，每次扩多少
+
+11. HashMap 的 get 过程是？
+
+12. HashMap 有什么缺点
+
+13. 谈谈你对再三列 rehash 过程的理解
+
+14. 多线程场景下如何使用 HashMap
+
+15. 谈谈你对死锁的理解，如果解决死锁？
+
+16. 关于锁消除有了解么
+
+    
 
 ### JVM  &  内存模型  & 内存回收 & 状态机
 
@@ -172,13 +188,14 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 ### 缓存
 
-1. LruCache算法如何实现，内部为什么要用LinkHashMap来实现。
+1. [LruCache算法如何实现，内部为什么要用LinkHashMap来实现。](https://www.jianshu.com/p/b0442c719525)
 
 ### 图片处理
 
-1. 图片的压缩处理。
-2.  这里会问四种图片格式的区别(ARGB888、RGB565、RGB444、Alpha_8)
-3. 给出一张以上格式的图片如何计算图片所占的内存大小。
+1. [Android 图片加载之原理分析](https://www.jianshu.com/p/62cf074baeb7)
+2. 图片的压缩处理。
+3. 这里会问四种图片格式的区别(ARGB888、RGB565、RGB444、Alpha_8)
+4. 给出一张以上格式的图片如何计算图片所占的内存大小。
 
 ### 序列化
 
@@ -199,6 +216,8 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 
 1. 热更新的原理 
 2. 组件化原理
+   1. [Android组件化/模块化开发(一)](https://www.jianshu.com/p/748bf621a9a0)
+   2. [Android组件化/模块化开发(二)](https://www.jianshu.com/p/bfd5afed498f)
 3. 插件化原理
 
 ### 性能优化
@@ -259,7 +278,7 @@ Java 的泛型，<? super T> 和 <? extends T> 的区别。问到泛型、泛型
 1. IPB 帧的解码和渲染顺序
 2. 对 h264 aac opus 这几个协议是否有了解
 3. udp传输音视频桢 如何解决丢包问题
-4. 
+4. [Android视频加密那点事儿！](https://blog.csdn.net/shenshibaoma/article/details/79003854?utm_medium=distribute.pc_relevant.none-task-blog-title-1&spm=1001.2101.3001.4242)
 
 ## Android 三方框架
 
